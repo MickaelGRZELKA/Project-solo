@@ -20,12 +20,21 @@
     text-decoration: none;
     font-size: 2vw;
     font-family: 'Quattrocento', serif;
-    color: #000; }
+    color: #000;
+    animation: animate 0.5s infinite; }
+@keyframes animate {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px); } }
   .Inav ul li {
     margin-left: 2%; }
   .Inav ul li:hover {
     text-decoration-line: underline;
-    text-decoration-color: #000; }
+    text-decoration-color: #000;
+    animation: animate 1s infinite; }
 
 .Imain .Ibaby {
   width: 100%;
