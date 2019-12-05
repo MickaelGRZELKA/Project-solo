@@ -1,0 +1,10 @@
+.Ifooter{
+    background-color: #404040;
+    border-top: 3px inset black;
+    height: 20vw;
+    .footer_body{
+        position: absolute;
+        top: 115%;
+        left: 25%;
+    }
+}
