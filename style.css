@@ -3,6 +3,15 @@
   margin: 0;
   padding: 0; }
 
+.Ifooter {
+  background-color: #404040;
+  border-top: 3px inset black;
+  height: 20vw; }
+  .Ifooter .footer_body {
+    position: absolute;
+    top: 115%;
+    left: 25%; }
+
 .Ititle h1 {
   font-family: 'Dancing Script', cursive;
   position: absolute;
