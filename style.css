@@ -36,7 +36,7 @@
 .Imain .Iinfo {
   display: block;
   background-color: #fff;
-  padding: 7%;
+  padding: 6.5%;
   position: absolute;
   top: 55%;
   left: 39%; }
@@ -45,5 +45,10 @@
     margin-top: -4vw;
     margin-bottom: 2vw;
     font-family: 'Quattrocento', serif; }
+  .Imain .Iinfo hr {
+    position: relative;
+    left: 25%;
+    margin-bottom: 2vw;
+    width: 50%; }
 
 /*# sourceMappingURL=style.css.map */
