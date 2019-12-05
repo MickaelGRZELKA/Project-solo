@@ -34,10 +34,24 @@
   margin-top: 16%;
   border-top: 3px inset black; }
 .Imain .Iinfo {
+  display: block;
   background-color: #fff;
   padding: 7%;
   position: absolute;
   top: 55%;
   left: 39%; }
+  .Imain .Iinfo h2 {
+    font-size: 1.5vw;
+    margin-top: -4vw;
+    margin-bottom: 2vw;
+    font-family: 'Quattrocento', serif; }
+  .Imain .Iinfo hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px; }
 
 /*# sourceMappingURL=style.css.map */
