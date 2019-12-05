@@ -36,11 +36,13 @@
 .Imain .Iinfo {
   display: block;
   background-color: #fff;
+  border: .1vw solid black;
   padding: 6.5%;
   position: absolute;
   top: 55%;
-  left: 39%; }
+  left: 32%; }
   .Imain .Iinfo h2 {
+    text-align: center;
     font-size: 1.5vw;
     margin-top: -4vw;
     margin-bottom: 2vw;
@@ -50,5 +52,52 @@
     left: 25%;
     margin-bottom: 2vw;
     width: 50%; }
+  .Imain .Iinfo .slogan {
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Quattrocento', serif;
+    margin-bottom: 10%; }
+  .Imain .Iinfo .button-typewriter button {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 2vw;
+    background-color: #000; }
+  .Imain .Iinfo .button-typewriter .button_gallery {
+    animation: typing 8s steps(30) infinite;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Quattrocento', serif;
+    font-size: 1vw;
+    color: white; }
+  .Imain .Iinfo .button-typewriter .button__wrapper:hover p {
+    animation: blink 1s infinite; }
+@keyframes typing {
+  0% {
+    width: 0; }
+  50% {
+    width: 100%; }
+  55%,
+            65%,
+            75% {
+    opacity: 1; }
+  60%,
+            70% {
+    opacity: 0; }
+  80% {
+    width: 100%; }
+  100% {
+    width: 0; } }
+@keyframes blink {
+  25%,
+            75% {
+    color: transparent; }
+  40%,
+            60% {
+    color: #fff; } }
 
 /*# sourceMappingURL=style.css.map */
