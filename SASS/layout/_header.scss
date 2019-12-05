@@ -2,7 +2,7 @@
     h1 {
         font-family: 'Dancing Script', cursive;
         position: absolute;
-        top: 10%;
+        top: 5%;
         left: 40%;
         font-size: 5vw;
     }
@@ -13,18 +13,18 @@
         display: inline-flex;
         list-style: none;
         position: absolute;
-        top: 24%;
+        top: 20%;
         left: 36%;
 
         a {
             text-decoration: none;
-        }
-
-        li {
-            padding-left: 10px;
             font-size: 2vw;
             font-family: 'Quattrocento', serif;
             color: #000;
+        }
+
+        li {
+            margin-left: 2%;
         }
 
         li:hover {
