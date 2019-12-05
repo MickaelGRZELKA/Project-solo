@@ -58,9 +58,11 @@
     font-family: 'Quattrocento', serif; }
   .Imain .Iinfo hr {
     position: relative;
-    left: 25%;
+    left: 15%;
     margin-bottom: 2vw;
-    width: 50%; }
+    width: 75%;
+    height: 1px;
+    background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0); }
   .Imain .Iinfo .slogan {
     text-align: center;
     font-size: 1vw;
