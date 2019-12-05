@@ -4,12 +4,33 @@
   padding: 0;
 }
 
-.Ititle img {
+.Ititle h1 {
+  font-family: "Dancing Script", cursive;
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 40%;
-  height: 20vh;
-  width: 20vw;
+  font-size: 5vw;
+}
+
+.Inav ul {
+  display: inline-flex;
+  list-style: none;
+  position: absolute;
+  top: 28%;
+  left: 36%;
+}
+.Inav ul a {
+  text-decoration: none;
+}
+.Inav ul li {
+  padding-left: 10px;
+  font-size: 2vw;
+  font-family: "Quattrocento", serif;
+  color: #000;
+}
+.Inav ul li:hover {
+  text-decoration-line: underline;
+  text-decoration-color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
