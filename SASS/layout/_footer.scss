@@ -7,4 +7,28 @@
         top: 115%;
         left: 25%;
     }
+    .footer_topic{
+        font-size: 1vw;
+        font-family: 'Quattrocento', serif;
+        padding-bottom: .5vw;
+    }
+    .sep-3{
+        width: 15vw;
+        border-color: black;
+    }
+    .second-nav{
+        padding-top: 1vw;
+        li{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 1vw;
+            color: black;
+            span{
+                font-size: 1vw;
+            }
+        }
+    }
 }
+
