@@ -4,7 +4,7 @@
   padding: 0; }
 
 .Ifooter {
-  background-color: #404040;
+  background-color: #363842;
   border-top: 3px inset black;
   height: 20vw; }
   .Ifooter .footer_body {
@@ -14,6 +14,8 @@
   .Ifooter .footer_topic {
     font-size: 1vw;
     font-family: 'Quattrocento', serif;
+    color: #ccc;
+    font-weight: bold;
     padding-bottom: .5vw; }
   .Ifooter .sep-3 {
     width: 15vw;
@@ -25,9 +27,54 @@
     .Ifooter .second-nav a {
       text-decoration: none;
       font-size: 1vw;
-      color: black; }
-      .Ifooter .second-nav a span {
-        font-size: 1vw; }
+      color: #818493; }
+    .Ifooter .second-nav a:hover {
+      text-decoration-line: underline;
+      color: #fff; }
+  .Ifooter .footer_body2 {
+    position: absolute;
+    top: 115%;
+    left: 50%; }
+    .Ifooter .footer_body2 ul {
+      position: absolute;
+      top: 250%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      padding: 0;
+      display: flex; }
+    .Ifooter .footer_body2 ul li {
+      list-style: none; }
+    .Ifooter .footer_body2 ul li a {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      display: block;
+      text-align: center;
+      margin: 0 10px;
+      border-radius: 50%;
+      padding: 6px;
+      box-sizing: border-box;
+      text-decoration: none;
+      box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(0deg, #ddd, #fff);
+      transition: .5s; }
+    .Ifooter .footer_body2 ul li a:hover {
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+    .Ifooter .footer_body2 ul li a .fab {
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: linear-gradient(0deg, #fff, #ddd);
+      border-radius: 50%;
+      line-height: calc(60px - 12px);
+      font-size: 24px;
+      color: #262626;
+      transition: .5s; }
+    .Ifooter .footer_body2 ul li:nth-child(1) a:hover .fab {
+      color: #3b5998; }
+    .Ifooter .footer_body2 ul li:nth-child(2) a:hover .fab {
+      color: #00aced; }
 
 .Ititle h1 {
   font-family: 'Dancing Script', cursive;
@@ -41,7 +88,7 @@
   list-style: none;
   position: absolute;
   top: 20%;
-  left: 36%; }
+  left: 28%; }
   .Inav ul a {
     text-decoration: none;
     font-size: 2vw;
@@ -56,7 +103,7 @@
   100% {
     transform: translateY(0px); } }
   .Inav ul li {
-    margin-left: 2%; }
+    margin-left: 8%; }
   .Inav ul li:hover {
     text-decoration-line: underline;
     text-decoration-color: #000;
