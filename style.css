@@ -103,8 +103,7 @@
   100% {
     transform: translateY(0px); } }
   .Inav ul li {
-    margin-left: 8%;
-    padding-right: 5%; }
+    margin-left: 8%; }
   .Inav ul li:hover {
     text-decoration-line: underline;
     text-decoration-color: #000;
