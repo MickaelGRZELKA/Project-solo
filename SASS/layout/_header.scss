@@ -16,28 +16,30 @@
         top: 20%;
         left: 28%;
 
-        a{
+        a {
             text-decoration: none;
             font-size: 2vw;
             font-family: 'Quattrocento', serif;
             color: #000;
             animation: animate 0.5s infinite;
         }
+
         @keyframes animate {
-            0%{
+            0% {
                 transform: translateY(0px);
             }
-            50%{
+
+            50% {
                 transform: translateY(-20px);
             }
-            100%{
+
+            100% {
                 transform: translateY(0px);
             }
         }
 
         li {
-            margin-left: 8%;
-            
+            padding-right: 3rem;
         }
 
         li:hover {
