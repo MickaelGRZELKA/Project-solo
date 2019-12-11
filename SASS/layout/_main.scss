@@ -141,4 +141,41 @@
             font-family: 'Lora', serif;
         }
     }
+<<<<<<< HEAD
+=======
+}
+.gallery-bloc1{
+    position: absolute;
+    top: 65%;
+    left: 12%;
+    .img1{
+        border: .5vw solid black;
+    }
+    p{
+        text-align: center;
+    }
+}
+.gallery-bloc2{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    .img2{
+        border: .5vw solid black;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+.gallery-bloc3{
+    position: absolute;
+    top: 65%;
+    left: 68%;
+    .img3{
+        border: .5vw solid black;
+    }
+    p{
+        text-align: center;
+    }
+>>>>>>> b5ff31edfd31b72a0604738ff8c1e13c9c24bddf
 }
