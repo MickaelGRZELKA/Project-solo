@@ -251,8 +251,8 @@
 
 .gallery-bloc1 {
   position: absolute;
-  top: 65%;
-  left: 12%;
+  top: 68%;
+  left: 3%;
 }
 .gallery-bloc1 .img1 {
   border: 0.5vw solid black;
@@ -263,8 +263,8 @@
 
 .gallery-bloc2 {
   position: absolute;
-  top: 65%;
-  left: 40%;
+  top: 68%;
+  left: 37%;
 }
 .gallery-bloc2 .img2 {
   border: 0.5vw solid black;
@@ -275,8 +275,8 @@
 
 .gallery-bloc3 {
   position: absolute;
-  top: 65%;
-  left: 68%;
+  top: 68%;
+  left: 71%;
 }
 .gallery-bloc3 .img3 {
   border: 0.5vw solid black;
