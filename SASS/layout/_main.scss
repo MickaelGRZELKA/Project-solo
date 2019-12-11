@@ -1,12 +1,13 @@
-.Imain{
-   .Ibaby{ 
-      width: 100%;
-      height: 32.5vw;
-      object-fit: fill;
-      margin-top: 16%;
-      border-top: 3px inset black;
-   }
-    .Iinfo{
+.Imain {
+    .Ibaby {
+        width: 100%;
+        height: 32.5vw;
+        object-fit: fill;
+        margin-top: 16%;
+        border-top: 3px inset black;
+    }
+
+    .Iinfo {
         display: block;
         background-color: #fff;
         border: .1vw solid black;
@@ -14,27 +15,31 @@
         position: absolute;
         top: 55%;
         left: 32%;
-        h2{
+
+        h2 {
             text-align: center;
             font-size: 1.5vw;
             margin-top: -4vw;
             margin-bottom: 2vw;
             font-family: 'Quattrocento', serif;
         }
-        hr{
+
+        hr {
             position: relative;
             left: 15%;
             margin-bottom: 2vw;
             width: 75%;
-            height: 1px; 
+            height: 1px;
             background-image: linear-gradient(to right, #f0f0f0, #00b9ff, #59d941, #f0f0f0);
         }
-        .slogan{
+
+        .slogan {
             text-align: center;
             font-size: 1vw;
             font-family: 'Quattrocento', serif;
             margin-bottom: 10%;
         }
+
         .button-typewriter {
             button {
                 position: relative;
@@ -46,6 +51,7 @@
                 border-radius: 2vw;
                 background-color: #000;
             }
+
             .button_gallery {
                 animation: typing 8s steps(30) infinite;
                 display: inline-block;
@@ -55,39 +61,48 @@
                 font-size: 1vw;
                 color: white;
             }
+
             .button__wrapper:hover p {
                 animation: blink 1s infinite;
             }
         }
-        
+
         @keyframes typing {
             0% {
                 width: 0;
             }
+
             50% {
                 width: 100%;
             }
+
             55%,
             65%,
             75% {
                 opacity: 1;
             }
+
             60%,
             70% {
                 opacity: 0;
             }
+
             80% {
                 width: 100%;
             }
+
             100% {
                 width: 0;
             }
         }
+
         @keyframes blink {
+
             25%,
             75% {
                 color: transparent;
             }
+
             40%,
             60% {
                 color: #fff;
@@ -96,13 +111,14 @@
     }
 }
 
-.separator{
+.separator {
     position: absolute;
     top: 32%;
     width: 100%;
     height: 10%;
     background: #000;
-    p{
+
+    p {
         color: #fff;
         font-family: 'Quattrocento', serif;
         font-size: 600%;
@@ -111,49 +127,60 @@
         left: 45%;
     }
 }
-.baby-section{
+
+.baby-section {
     position: absolute;
     top: 50%;
     left: 47%;
-    h2{
+
+    h2 {
         text-decoration-line: underline;
-        span{
+
+        span {
             font-size: 2.5vw;
             font-family: 'Lora', serif;
         }
     }
 }
-.gallery-bloc1{
+
+.gallery-bloc1 {
     position: absolute;
     top: 65%;
     left: 12%;
-    .img1{
-        border: .5vw solid black;
-    }
-    p{
-        text-align: center;
-    }
-}
-.gallery-bloc2{
-    position: absolute;
-    top: 65%;
-    left: 40%;
-    .img2{
+
+    .img1 {
         border: .5vw solid black;
     }
 
-    p{
+    p {
         text-align: center;
     }
 }
-.gallery-bloc3{
+
+.gallery-bloc2 {
+    position: absolute;
+    top: 65%;
+    left: 40%;
+
+    .img2 {
+        border: .5vw solid black;
+    }
+
+    p {
+        text-align: center;
+    }
+}
+
+.gallery-bloc3 {
     position: absolute;
     top: 65%;
     left: 68%;
-    .img3{
+
+    .img3 {
         border: .5vw solid black;
     }
-    p{
+
+    p {
         text-align: center;
     }
 }
