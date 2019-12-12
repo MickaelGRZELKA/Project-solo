@@ -285,4 +285,40 @@
   text-align: center;
 }
 
+.gallery-bloc4 {
+  position: absolute;
+  top: 120%;
+  left: 3%;
+}
+.gallery-bloc4 .img4 {
+  border: 0.5vw solid black;
+}
+.gallery-bloc4 p {
+  text-align: center;
+}
+
+.gallery-bloc5 {
+  position: absolute;
+  top: 120%;
+  left: 37%;
+}
+.gallery-bloc5 .img5 {
+  border: 0.5vw solid black;
+}
+.gallery-bloc5 p {
+  text-align: center;
+}
+
+.gallery-bloc6 {
+  position: absolute;
+  top: 120%;
+  left: 71%;
+}
+.gallery-bloc6 .img6 {
+  border: 0.5vw solid black;
+}
+.gallery-bloc6 p {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
