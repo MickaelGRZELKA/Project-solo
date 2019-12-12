@@ -257,8 +257,15 @@
 .gallery-bloc1 .img1 {
   border: 0.5vw solid black;
 }
+.gallery-bloc1 .img1:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc1 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 .gallery-bloc2 {
