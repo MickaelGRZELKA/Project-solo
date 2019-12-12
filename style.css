@@ -275,8 +275,15 @@
 .gallery-bloc2 .img2 {
   border: 0.5vw solid black;
 }
+.gallery-bloc2 .img2:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc2 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 .gallery-bloc3 {
@@ -287,8 +294,15 @@
 .gallery-bloc3 .img3 {
   border: 0.5vw solid black;
 }
+.gallery-bloc3 .img3:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc3 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 .gallery-bloc4 {
@@ -299,8 +313,15 @@
 .gallery-bloc4 .img4 {
   border: 0.5vw solid black;
 }
+.gallery-bloc4 .img4:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc4 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 .gallery-bloc5 {
@@ -311,8 +332,15 @@
 .gallery-bloc5 .img5 {
   border: 0.5vw solid black;
 }
+.gallery-bloc5 .img5:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc5 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 .gallery-bloc6 {
@@ -323,8 +351,15 @@
 .gallery-bloc6 .img6 {
   border: 0.5vw solid black;
 }
+.gallery-bloc6 .img6:hover {
+  transform: translateY(5px);
+  box-shadow: 5px 10px 15px black;
+}
 .gallery-bloc6 p {
   text-align: center;
+  font-size: 1vw;
+  word-break: break-all;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
