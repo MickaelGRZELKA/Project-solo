@@ -169,10 +169,18 @@
 
     .img2 {
         border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
     }
 
     p {
         text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
     }
 }
 
@@ -183,10 +191,18 @@
 
     .img3 {
         border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
     }
 
     p {
         text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
     }
 }
 
@@ -197,10 +213,18 @@
 
     .img4 {
         border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
     }
 
     p {
         text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
     }
 }
 
@@ -211,10 +235,18 @@
 
     .img5 {
         border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
     }
 
     p {
         text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
     }
 }
 
@@ -225,9 +257,17 @@
 
     .img6 {
         border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
     }
 
     p {
         text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
     }
 }
