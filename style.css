@@ -303,4 +303,49 @@
     font-size: 5vw;
     font-family: 'Lora', serif; }
 
+.gallery-bloc7 {
+  position: absolute;
+  top: 190%;
+  left: 3%; }
+  .gallery-bloc7 .img7 {
+    border: .5vw solid black; }
+    .gallery-bloc7 .img7:hover {
+      transform: translateY(5px);
+      box-shadow: 5px 10px 15px black; }
+  .gallery-bloc7 p {
+    text-align: center;
+    font-size: 1vw;
+    word-break: break-all;
+    padding-top: 20px; }
+
+.gallery-bloc8 {
+  position: absolute;
+  top: 190%;
+  left: 37%; }
+  .gallery-bloc8 .img8 {
+    border: .5vw solid black; }
+    .gallery-bloc8 .img8:hover {
+      transform: translateY(5px);
+      box-shadow: 5px 10px 15px black; }
+  .gallery-bloc8 p {
+    text-align: center;
+    font-size: 1vw;
+    word-break: break-all;
+    padding-top: 20px; }
+
+.gallery-bloc9 {
+  position: absolute;
+  top: 190%;
+  left: 71%; }
+  .gallery-bloc9 .img9 {
+    border: .5vw solid black; }
+    .gallery-bloc9 .img9:hover {
+      transform: translateY(5px);
+      box-shadow: 5px 10px 15px black; }
+  .gallery-bloc9 p {
+    text-align: center;
+    font-size: 1vw;
+    word-break: break-all;
+    padding-top: 20px; }
+
 /*# sourceMappingURL=style.css.map */
