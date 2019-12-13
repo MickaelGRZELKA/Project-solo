@@ -282,3 +282,63 @@
         font-family: 'Lora', serif;
     }
 }
+.gallery-bloc7 {
+    position: absolute;
+    top: 190%;
+    left: 3%;
+
+    .img7 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
+.gallery-bloc8 {
+    position: absolute;
+    top: 190%;
+    left: 37%;
+
+    .img8 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
+.gallery-bloc9 {
+    position: absolute;
+    top: 190%;
+    left: 71%;
+
+    .img9 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
