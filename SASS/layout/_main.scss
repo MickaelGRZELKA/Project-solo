@@ -342,3 +342,63 @@
         padding-top: 20px;
     }
 }
+.gallery-bloc10 {
+    position: absolute;
+    top: 240%;
+    left: 3%;
+
+    .img10 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
+.gallery-bloc11 {
+    position: absolute;
+    top: 240%;
+    left: 37%;
+
+    .img11 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
+.gallery-bloc12 {
+    position: absolute;
+    top: 240%;
+    left: 71%;
+
+    .img12 {
+        border: .5vw solid black;
+
+        &:hover {
+            transform: translateY(5px);
+            box-shadow: 5px 10px 15px black;
+        }
+    }
+    p {
+        text-align: center;
+        font-size: 1vw;
+        word-break: break-all;
+        padding-top: 20px;
+    }
+}
