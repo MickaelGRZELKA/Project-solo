@@ -1,50 +1,53 @@
-.Ititle {
-    h1 {
-        font-family: 'Dancing Script', cursive;
-        position: absolute;
-        top: 5%;
-        left: 40%;
-        font-size: 5vw;
+.Iheader {
+
+    .Ititle {
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            position: absolute;
+            top: 5%;
+            left: 40%;
+            font-size: 5vw;
+        }
     }
-}
 
-.Inav {
-    ul {
-        display: inline-flex;
-        list-style: none;
-        position: absolute;
-        top: 20%;
-        left: 28%;
+    .Inav {
+        ul {
+            display: inline-flex;
+            list-style: none;
+            position: absolute;
+            top: 20%;
+            left: 28%;
 
-        a {
-            text-decoration: none;
-            font-size: 2vw;
-            font-family: 'Quattrocento', serif;
-            color: #000;
-        }
-
-        @keyframes animate {
-            0% {
-                transform: translateY(0px);
+            a {
+                text-decoration: none;
+                font-size: 2vw;
+                font-family: 'Quattrocento', serif;
+                color: #000;
             }
 
-            50% {
-                transform: translateY(-20px);
+            @keyframes animate {
+                0% {
+                    transform: translateY(0px);
+                }
+
+                50% {
+                    transform: translateY(-20px);
+                }
+
+                100% {
+                    transform: translateY(0px);
+                }
             }
 
-            100% {
-                transform: translateY(0px);
+            li {
+                padding: 1.5rem;
             }
-        }
 
-        li {
-            padding: 1.5rem;
-        }
-
-        li:hover {
-            text-decoration-line: underline;
-            text-decoration-color: #000;
-            animation: animate 1s infinite;
+            li:hover {
+                text-decoration-line: underline;
+                text-decoration-color: #000;
+                animation: animate 1s infinite;
+            }
         }
     }
 }
